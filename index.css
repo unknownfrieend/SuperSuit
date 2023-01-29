@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+nav {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.number {
+    font-style: normal;
+    font-weight: 700;
+    font-style: 32px;
+    text-align: center;
+    color: #041A3F;
+}
+
+.header {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-info {
+    width: 600px;
+    width: 1120px;
+    margin: auto;
+}
+
+.header-image {
+    position: absolute;
+    top: 0;
+    width: 600px;
+    right: -50px;
+}
+
+.info-text {
+    width: 600px;
+    font-weight: 700;
+    font-size: 52px;
+    color: #041A3F;
+    padding-top: 120px;
+
+}
+
+.info-text span {
+    font-weight: 700;
+    font-size: 52px;
+    color: #FFCA33;
+}
+
+.btn {
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FFCA33;
+    border: none;
+    margin-top: 48px;
+}
+
+.selection {
+    width: 1120px;
+    text-align: center;
+    display: flex;
+}
+
+.section-text {
+    margin-top: 200px;
+    font-weight: 700;
+    font-style: 42px;
+    text-align: center;
+    color: #041A3F;
+}
+
+.buy {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.bottom-text {
+    text-align: center;
+    font-size: 16px;
+}
+
+.button {
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+    background: #FFCA33;
+}
+
+/* .image {
+    width: 100%;
+} */
+
+.main {
+    width: 1120px;
+    display: flex;
+    margin-top: 60px;
+    gap: 1px;
+}
+
+.h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: rgba(4, 26, 63, 0.6);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
